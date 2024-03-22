@@ -29,7 +29,7 @@ public class SecurityConfig {
 		http.formLogin()
 		.loginPage("/login")
 		.permitAll()
-		.defaultSuccessUrl("/loginOk");
+		.defaultSuccessUrl("/listBook");
 		
 		//logout권한
 		http.logout()

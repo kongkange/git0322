@@ -13,7 +13,7 @@ import lombok.Data;
 public class Orders {
 
 	@Id
-	private String orderid;
+	private int orderid;
 	
 	@ManyToOne
 	@JoinColumn(name="id", insertable=true, updatable=true)
