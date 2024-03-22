@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Controller
 @Setter
-public class indexController {
+public class IndexController {
 	
 	@GetMapping("/")
 	public String index() {
